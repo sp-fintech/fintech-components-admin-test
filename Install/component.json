@@ -1,0 +1,50 @@
+{
+	"name" : "Test",
+	"route" : "test",
+	"description" : "",
+	"module_type" : "components",
+	"app_type" : "fintech",
+	"category" : "admin",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-components-admin-test",
+	"class" : "Apps\\Fintech\\Components\\Test\\TestComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.9",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : 
+				{
+					"florianv/swap" : "^4.2"
+				}
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"menu" : "false",
+	"settings" : [],
+	"widgets" : []
+}
